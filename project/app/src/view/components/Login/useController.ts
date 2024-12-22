@@ -1,5 +1,7 @@
+import { SyntheticEvent } from 'react'
+
 export default function useController() {
-    const handleSubmit = (event: any) => {
+    const handleSubmit = (event: SyntheticEvent) => {
         event.preventDefault()
     }
 

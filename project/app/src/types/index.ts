@@ -3,7 +3,8 @@ import {
     TFieldProps,
     TInputProps,
     TLabelProps,
-    TButtonProps
+    TButtonProps,
+    TAnchorProps
 } from './props'
 
 export type {
@@ -11,5 +12,6 @@ export type {
     TFieldProps,
     TInputProps,
     TLabelProps,
-    TButtonProps
+    TButtonProps,
+    TAnchorProps
 }
